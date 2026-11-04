@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <remote name="rubyx-prjkt" fetch="https://github.com/rubyx-prjkt/" />
+  <remove-project path="device/xiaomi/rubyx" optional="true" />
+  <remove-project path="kernel/xiaomi/mt6877" optional="true" />
+  <remove-project path="vendor/xiaomi/rubyx" optional="true" />
+  <remove-project path="device/xiaomi/miuicamera-rubyx" optional="true" />
+  <remove-project path="vendor/xiaomi/miuicamera-rubyx" optional="true" />
+  <remove-project path="hardware/xiaomi" optional="true" />
+  <remove-project path="hardware/mediatek" optional="true" />
+  <remove-project path="device/mediatek/sepolicy_vndr" optional="true" />
+  <remove-project path="vendor/mediatek/ims" optional="true" />
+  <remove-project path="hardware/dolby" optional="true" />
+  <project name="device_xiaomi_rubyx" path="device/xiaomi/rubyx" remote="rubyx-prjkt" revision="lineage-23.2" />
+  <project name="kernel_xiaomi_mt6877" path="kernel/xiaomi/mt6877" remote="rubyx-prjkt" revision="lineage-23.2" clone-depth="1" />
+  <project name="vendor_xiaomi_rubyx" path="vendor/xiaomi/rubyx" remote="rubyx-prjkt" revision="lineage-23.2" />
+  <project name="device_xiaomi_miuicamera-rubyx" path="device/xiaomi/miuicamera-rubyx" remote="rubyx-prjkt" revision="lineage-24.0" />
+  <project name="vendor_xiaomi_miuicamera-rubyx" path="vendor/xiaomi/miuicamera-rubyx" remote="rubyx-prjkt" revision="lineage-24.0" />
+  <project name="hardware_xiaomi" path="hardware/xiaomi" remote="rubyx-prjkt" revision="lineage-23.2" />
+  <project name="android_hardware_mediatek" path="hardware/mediatek" remote="rubyx-prjkt" revision="lineage-23.2" />
+  <project name="android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="rubyx-prjkt" revision="lineage-23.2" />
+  <project name="android_vendor_mediatek_ims" path="vendor/mediatek/ims" remote="rubyx-prjkt" revision="lineage-23.2" />
+  <project name="android_hardware_dolby" path="hardware/dolby" remote="rubyx-prjkt" revision="lineage-23.2" />
+</manifest>
